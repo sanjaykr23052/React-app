@@ -1,0 +1,36 @@
+.name{
+    color: blue;
+}
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex!important;
+    /* background-color: blue; */
+    text-align: center;
+    align-items: center;
+    z-index: -1;
+    
+}
+.tit{
+    margin: -7px;
+    margin-left: 90%;
+    z-index: 100;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.child{
+    z-index: -1;
+    border: 2px;
+    color: black;
+    margin-left: 37%;
+    height: 40%;
+    width: 25%;
+    /* background-color: aqua; */
+}
+.imgn{
+    z-index: -1;
+    height: 80%;
+    width: 100%;
+    border-radius: 10%;
+}
